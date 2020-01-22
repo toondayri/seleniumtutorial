@@ -9,7 +9,6 @@ import static org.testng.Assert.assertTrue;
 public class DropdownTests extends BaseTests {
 
     @Test
-
     public void testSelectOption(){
         var dropDownPage = homePage.clickDropdown();
 
